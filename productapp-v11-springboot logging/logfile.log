@@ -1,0 +1,38 @@
+INFO  | 2024-01-23 17:08:26 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - Starting ProductappApplication using Java 17.0.9 with PID 52004 (/home/raj/Documents/cloud_native_java2024/module-1-boot/productapp-v1/target/classes started by raj in /home/raj/Documents/cloud_native_java2024/module-1-boot/productapp-v1)
+INFO  | 2024-01-23 17:08:26 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - The following 1 profile is active: "test"
+INFO  | 2024-01-23 17:08:27 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  | 2024-01-23 17:08:27 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+INFO  | 2024-01-23 17:08:28 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - Tomcat initialized with port 8090 (http)
+INFO  | 2024-01-23 17:08:28 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8090"]
+INFO  | 2024-01-23 17:08:28 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting service [Tomcat]
+INFO  | 2024-01-23 17:08:28 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/10.1.18]
+INFO  | 2024-01-23 17:08:28 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+INFO  | 2024-01-23 17:08:28 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - Root WebApplicationContext: initialization completed in 1709 ms
+INFO  | 2024-01-23 17:08:29 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  | 2024-01-23 17:08:29 | [main] hikari.HikariDataSource (HikariDataSource.java:110) - HikariPool-1 - Starting...
+INFO  | 2024-01-23 17:08:29 | [main] pool.HikariPool (HikariPool.java:565) - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c0e2ec
+INFO  | 2024-01-23 17:08:29 | [main] hikari.HikariDataSource (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+INFO  | 2024-01-23 17:08:30 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  | 2024-01-23 17:08:31 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+DEBUG | 2024-01-23 17:08:31 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - 9 mappings in 'requestMappingHandlerMapping'
+DEBUG | 2024-01-23 17:08:31 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+DEBUG | 2024-01-23 17:08:31 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+DEBUG | 2024-01-23 17:08:31 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+INFO  | 2024-01-23 17:08:31 | [main] logging.DirectJDKLog (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8090"]
+INFO  | 2024-01-23 17:08:31 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - Tomcat started on port 8090 (http) with context path ''
+INFO  | 2024-01-23 17:08:31 | [main] impl.Jdk14Logger (Jdk14Logger.java:99) - Started ProductappApplication in 6.312 seconds (process running for 6.664)
+INFO  | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] logging.DirectJDKLog (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - Initializing Servlet 'dispatcherServlet'
+DEBUG | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - Detected StandardServletMultipartResolver
+DEBUG | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - Detected AcceptHeaderLocaleResolver
+DEBUG | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - Detected FixedThemeResolver
+DEBUG | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6a4238ff
+DEBUG | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4964d801
+DEBUG | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+INFO  | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - Completed initialization in 6 ms
+DEBUG | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - GET "/products", parameters={}
+DEBUG | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - Mapped to com.productapp.controller.ProductController#getAll()
+INFO  | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] service.ProductServiceImpl (ProductServiceImpl.java:31) - time taken for ex of getProducts is 151 ms
+DEBUG | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8]
+DEBUG | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - Writing [[Product(id=1, name=pen set, price=200.00), Product(id=2, name=laptop, price=67000.00), Product(id=3 (truncated)...]
+DEBUG | 2024-01-23 17:08:41 | [http-nio-8090-exec-2] impl.Jdk14Logger (Jdk14Logger.java:99) - Completed 200 OK

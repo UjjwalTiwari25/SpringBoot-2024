@@ -1,0 +1,22 @@
+server:
+  port: 8090
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2console/
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: sa
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  profiles:
+    active:
+      - test
+  banner:
+    location: classpath:banner.txt
